@@ -1,5 +1,5 @@
 {
-  "name": "vue-component-loader",
+  "name": "vue-component-register-loader",
   "version": "1.0.0",
   "description": "vue-component-loader",
   "main": "index.js",
@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/Michael-Wang93/vue-component-loader/issues"
   },
-  "homepage": "https://github.com/Michael-Wang93/vue-component-loader#readme"
+  "homepage": "https://github.com/Michael-Wang93/vue-component-loader#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "loader-utils": "^1.1.0",
+    "path": "^0.12.7"
+  }
 }
